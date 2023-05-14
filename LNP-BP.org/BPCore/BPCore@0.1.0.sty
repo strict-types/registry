@@ -1,0 +1,55 @@
+{-
+  Id: manila_origami_blonde_GUPDJLSfnzeYN8udLa1Z7qFLZ45oiyekN2DR8DRPHqri
+  Name: BPCore
+  Version: 0.1.0
+  Description: Bitcoin client-side-validation library
+  Author: Dr Maxim Orlovsky <orlovsky@lnp-bp.org>
+  Copyright (C) 2023 LNP/BP Standards Association. All rights reserved.
+  License: Apache-2.0
+-}
+
+typelib BPCore -- manila_origami_blonde_GUPDJLSfnzeYN8udLa1Z7qFLZ45oiyekN2DR8DRPHqri
+
+import quota_conan_fashion_3TZmAPf8EkQZnbGS1g8uMGes6jEWPqNkFB6pLUKeoefg as Std
+import cubic_filter_vampire_AqBBP1ZeTXrdAePf6SBcUGbttpvxpHKG7uJLKFkVxtGi as Bitcoin
+import expand_vertigo_billy_HmAmKqZJ7XKDsyamyaikTq3PXzWgWcuVMXwe13Hzxfq4 as CommitVerify
+
+
+data AnchorId         :: [Byte ^ 32]
+data AnchorMerkleBlock :: txid Bitcoin.Txid
+                       , mpcProof CommitVerify.MerkleBlock
+                       , dbcProof Proof
+data AnchorMerkleProof :: txid Bitcoin.Txid
+                       , mpcProof CommitVerify.MerkleProof
+                       , dbcProof Proof
+data AnchorMerkleTree :: txid Bitcoin.Txid
+                       , mpcProof CommitVerify.MerkleTree
+                       , dbcProof Proof
+data BlindSealTxPtr   :: method CloseMethod
+                       , txid TxPtr
+                       , vout Bitcoin.Vout
+                       , blinding U64
+data BlindSealTxid    :: method CloseMethod
+                       , txid Bitcoin.Txid
+                       , vout Bitcoin.Vout
+                       , blinding U64
+data CloseMethod      :: opretFirst:0 | tapretFirst:1
+
+data ExplicitSealTxPtr :: method CloseMethod
+                       , txid TxPtr
+                       , vout Bitcoin.Vout
+data ExplicitSealTxid :: method CloseMethod
+                       , txid Bitcoin.Txid
+                       , vout Bitcoin.Vout
+data Proof            :: opretFirst ()
+                       | tapretFirst TapretProof
+data SecretSeal       :: [Byte ^ 32]
+data TapretNodePartner :: leftNode Bitcoin.TapNodeHash
+                       | rightLeaf Bitcoin.LeafScript
+                       | rightBranch TapretRightBranch
+data TapretPathProof  :: partnerNode TapretNodePartner?, nonce U8
+data TapretProof      :: pathProof TapretPathProof, internalPk Bitcoin.InternalPk
+data TapretRightBranch :: leftNodeHash Bitcoin.TapNodeHash, rightNodeHash Bitcoin.TapNodeHash
+data TxPtr            :: witnessTx ()
+                       | txid Bitcoin.Txid
+
