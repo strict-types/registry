@@ -9,12 +9,13 @@ To add your library to the repository please open PR.
 
 ## Application libraries
 
-| Library       | Last version | Mnemonic             | Organization | Description                                    |
-|---------------|--------------|----------------------|--------------|------------------------------------------------|
-| [Std]         | 0.1.0        | quota_conan_fashion  | UBIDECO      | Strict types standard library                  |
-| [Bitcoin]     | 0.1.0        | ubic_filter_vampire  | LNP/BP       | Consensus layer for bitcoin protocol           |
-| [RGBContract] | 0.1.0        | level_decide_percent | LNP/BP       | Types for writing RGB contracts and interfaces |
-| [RGB20]       | 0.1.0        | giant_eagle_capsule  | LNP/BP       | Types for RGB20 interface                      |
+| Library       | Last version | Mnemonic                | Organization | Description                                    |
+|---------------|--------------|-------------------------|--------------|------------------------------------------------|
+| [Std]         | 0.1.0        | quota_conan_fashion     | UBIDECO      | Strict types standard library                  |
+| [Bitcoin]     | 0.1.0        | ubic_filter_vampire     | LNP/BP       | Consensus layer for bitcoin protocol           |
+| [RGBContract] | 0.1.0        | level_decide_percent    | LNP/BP       | Types for writing RGB contracts and interfaces |
+| [RGB20]       | 0.1.0        | giant_eagle_capsule     | LNP/BP       | Types for RGB20 interface                      |
+| [RGB21]       | 0.1.0        | express_lexicon_penguin | LNP/BP       | Types for RGB21 interface                      |
 
 
 ## System libraries
@@ -35,3 +36,4 @@ To add your library to the repository please open PR.
 [RGB]: LNP-BP.org/RGB
 [RGBContract]: LNP-BP.org/RGBContract
 [RGB20]: LNP-BP.org/RGB20
+[RGB21]: LNP-BP.org/RGB21
