@@ -11,21 +11,21 @@ To add your library to the repository please open PR.
 
 | Library       | Last version | Mnemonic             | Organization | Description                                    |
 |---------------|--------------|----------------------|--------------|------------------------------------------------|
-| [Std]         | 0.1.0        | quota_conan_fashion  | UBIDECO      | Strict types standard library                  |
-| [Bitcoin]     | 0.1.0        | ubic_filter_vampire  | LNP/BP       | Consensus layer for bitcoin protocol           |
-| [RGBContract] | 0.1.0        | level_decide_percent | LNP/BP       | Types for writing RGB contracts and interfaces |
-| [RGB20]       | 0.1.0        | giant_eagle_capsule  | LNP/BP       | Types for RGB20 interface                      |
-| [RGB21]       | 0.1.0        | logic_radius_anita   | LNP/BP       | Types for RGB21 interface                      |
+| [Std]         | 0.1.0        | left_pierre_food     | UBIDECO      | Strict types standard library                  |
+| [Bitcoin]     | 0.1.0        | extra_rapid_armada   | LNP/BP       | Consensus layer for bitcoin protocol           |
+| [RGBContract] | 0.1.0        | protein_heroic_igloo | LNP/BP       | Types for writing RGB contracts and interfaces |
+| [RGB20]       | 0.1.0        | ethnic_raja_gloria   | LNP/BP       | Types for RGB20 interface                      |
+| [RGB21]       | 0.1.0        | marco_report_inca    | LNP/BP       | Types for RGB21 interface                      |
 
 
 ## System libraries
 
-| Library       | Last version | Mnemonic               | Organization | Description                                      |
-|---------------|--------------|------------------------|--------------|--------------------------------------------------|
-| [StrictTypes] | 0.1.0        | classic_vitamin_turtle | UBIDECO      | Confined generalized algebraic data types (GADT) |
-| [AluVM]       | 0.1.0        | collect_equator_sahara | UBIDECO      | AluVM data type library                          |
-| [BPCore]      | 0.1.0        | manila_origami_blonde  | LNP/BP       | Bitcoin client-side-validation library           |
-| [RGB]         | 0.1.0        | xray_susan_reward      | LNP/BP       | Consensus layer for RGB smart contracts          |
+| Library       | Last version | Mnemonic              | Organization | Description                                      |
+|---------------|--------------|-----------------------|--------------|--------------------------------------------------|
+| [StrictTypes] | 0.1.0        | figure_radical_liquid | UBIDECO      | Confined generalized algebraic data types (GADT) |
+| [AluVM]       | 0.1.0        | degree_boston_heart   | UBIDECO      | AluVM data type library                          |
+| [BPCore]      | 0.1.0        | carlo_paradox_sharp   | LNP/BP       | Bitcoin client-side-validation library           |
+| [RGB]         | 0.1.0        | fiber_deal_falcon     | LNP/BP       | Consensus layer for RGB smart contracts          |
 
 
 [Std]: UBIDECO.org/Std
